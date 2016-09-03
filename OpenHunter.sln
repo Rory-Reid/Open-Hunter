@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenHunter", "OpenHunter\OpenHunter.csproj", "{6F01D93F-DDBE-40D2-9C59-50BD33958D7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGameWrappers", "MonogameInterfaceWrappers\MonoGameWrappers.csproj", "{71880541-69E8-427C-8904-C7D4B1C9456D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGameWrappers", "MonoGameWrappers\MonoGameWrappers.csproj", "{71880541-69E8-427C-8904-C7D4B1C9456D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGameWrappers.UnityModule", "MonoGameWrappers.UnityModule\MonoGameWrappers.UnityModule.csproj", "{26728D81-AA33-4643-A82B-31FCB82B9629}"
 EndProject

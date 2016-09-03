@@ -76,7 +76,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MonogameInterfaceWrappers\MonoGameWrappers.csproj">
+    <ProjectReference Include="..\MonoGameWrappers\MonoGameWrappers.csproj">
       <Project>{71880541-69E8-427C-8904-C7D4B1C9456D}</Project>
       <Name>MonoGameWrappers</Name>
     </ProjectReference>

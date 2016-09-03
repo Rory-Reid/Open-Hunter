@@ -74,7 +74,7 @@
     <Compile Include="SpriteBatchFactory.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MonogameInterfaceWrappers\MonoGameWrappers.csproj">
+    <ProjectReference Include="..\MonoGameWrappers\MonoGameWrappers.csproj">
       <Project>{71880541-69e8-427c-8904-c7d4b1c9456d}</Project>
       <Name>MonoGameWrappers</Name>
     </ProjectReference>
