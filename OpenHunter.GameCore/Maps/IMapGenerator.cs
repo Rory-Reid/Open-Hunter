@@ -2,5 +2,6 @@
 {
 	public interface IMapGenerator
 	{
+		IMap CreateNewMap();
 	}
 }

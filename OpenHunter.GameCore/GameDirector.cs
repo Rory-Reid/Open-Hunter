@@ -10,8 +10,11 @@ namespace OpenHunter.GameCore
 	/// </summary>
 	public class GameDirector : IGameDirector
 	{
+		private readonly IMapGenerator mapGenerator;
+
 		public GameDirector(IMapGenerator mapGenerator)
 		{
+			this.mapGenerator = mapGenerator;
 		}
 
 		public void Initialise()

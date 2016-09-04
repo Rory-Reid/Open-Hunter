@@ -65,6 +65,7 @@
     <Compile Include="Maps\Map.cs" />
     <Compile Include="Maps\MapGenerator.cs" />
     <Compile Include="Maps\MapTile.cs" />
+    <Compile Include="Maps\TileType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

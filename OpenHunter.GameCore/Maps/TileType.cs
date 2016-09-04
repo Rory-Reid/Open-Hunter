@@ -1,7 +1,8 @@
 ﻿namespace OpenHunter.GameCore.Maps
 {
-	public interface IMap
+	public enum TileType
 	{
-		void Draw();
+		Empty = 0,
+		Floor = 1
 	}
 }
