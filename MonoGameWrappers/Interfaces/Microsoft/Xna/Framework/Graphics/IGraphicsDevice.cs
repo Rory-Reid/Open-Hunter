@@ -49,7 +49,7 @@ namespace Microsoft.Xna.Framework.Graphics
 		/// <param name="startIndex">The index within the index buffer to start drawing from.</param>
 		/// <param name="primitiveCount">The number of primitives to render from the index buffer.</param>
 		/// <remarks>
-		/// Note that minVertexIndex and numVertices are unused in MonoGame and will be ignored.
+		/// Note that <paramref name="minVertexIndex"/> and <paramref name="numVertices"/> are unused in MonoGame and will be ignored.
 		/// </remarks>
 		[Obsolete("Use DrawIndexedPrimitives(PrimitiveType primitiveType, int baseVertex, int startIndex, int primitiveCount) instead. In future versions this method can be removed.")]
 		void DrawIndexedPrimitives(PrimitiveType primitiveType, int baseVertex, int minVertexIndex, int numVertices, int startIndex, int primitiveCount);

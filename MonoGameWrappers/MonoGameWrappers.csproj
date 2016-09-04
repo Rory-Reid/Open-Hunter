@@ -55,6 +55,8 @@
   <ItemGroup>
     <Compile Include="Interfaces\Microsoft\Xna\Framework\Graphics\IGraphicsResource.cs" />
     <Compile Include="Interfaces\Microsoft\Xna\Framework\Graphics\ISpriteBatch.cs" />
+    <Compile Include="Interfaces\Microsoft\Xna\Framework\Graphics\ITexture.cs" />
+    <Compile Include="Interfaces\Microsoft\Xna\Framework\Graphics\ITexture2D.cs" />
     <Compile Include="Interfaces\Microsoft\Xna\Framework\IGame.cs" />
     <Compile Include="Interfaces\Microsoft\Xna\Framework\IGameTime.cs" />
     <Compile Include="Interfaces\Microsoft\Xna\Framework\Graphics\IGraphicsDevice.cs" />
@@ -65,6 +67,7 @@
     <Compile Include="Wrappers\GameWrapper.cs" />
     <Compile Include="Wrappers\GraphicsDeviceWrapper.cs" />
     <Compile Include="Wrappers\SpriteBatchWrapper.cs" />
+    <Compile Include="Wrappers\Texture2DWrapper.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

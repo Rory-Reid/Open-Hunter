@@ -15,7 +15,7 @@ namespace Microsoft.Xna.Framework.Graphics
 		/// <param name="rasterizerState">State of the rasterization. Uses <see cref="RasterizerState.CullCounterClockwise"/> if <see cref="null"/>.</param>
 		/// <param name="effect">A custom <see cref="Effect"/> to override the default sprite effect. Uses default sprite effect if <see cref="null"/>.</param>
 		/// <param name="transformMatrix">An optional matrix used to transform the sprite geometry. Uses <see cref="Matrix.Identity"/> if <see cref="null"/>.</param>
-		/// <exception cref="InvalidOperationException">Thrown if <see cref="SpriteBatch.Begin(SpriteSortMode, BlendState, SamplerState, DepthStencilState, RasterizerState, Effect, Matrix?)"/> is called next time without previous Microsoft.Xna.Framework.Graphics.SpriteBatch.End.</exception>
+		/// <exception cref="InvalidOperationException">Thrown if <see cref="SpriteBatch.Begin(SpriteSortMode, BlendState, SamplerState, DepthStencilState, RasterizerState, Effect, Matrix?)"/> is called next time without previous <see cref="SpriteBatch.End"/>.</exception>
 		/// <remarks>
 		/// This method uses optional parameters.
 		/// </remarks>

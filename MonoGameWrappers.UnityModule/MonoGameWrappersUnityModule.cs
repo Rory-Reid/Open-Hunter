@@ -20,6 +20,7 @@ namespace MonoGameWrappers.UnityModule
 		{
 			// MonoGame types
 			this.container.RegisterType<ISpriteBatch, SpriteBatchWrapper>();
+			this.container.RegisterType<ITexture2D, Texture2DWrapper>();
 
 			// Wrapper utilities
 			this.container.RegisterType<IWrapperFactory, WrapperFactory>();
